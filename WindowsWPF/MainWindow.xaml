@@ -1,0 +1,13 @@
+﻿<Window x:Class="WindowsWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WindowsWPF"
+        mc:Ignorable="d"
+        Title="Chuck Norris Jokes" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="jokeTextBox" HorizontalAlignment="Center" Margin="50,80,50,50" TextWrapping="Wrap" Text="Push the button" VerticalAlignment="Top" Width="350" Height="200" BorderThickness="0" IsReadOnly="True"/>
+        <Button x:Name="getJokeButton" Content="Get a Joke" HorizontalAlignment="Center" Margin="10,20,10,20" VerticalAlignment="Top" Width="85" Click="getJokeButton_Clicked"/>
+    </Grid>
+</Window>
